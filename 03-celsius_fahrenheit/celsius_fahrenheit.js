@@ -15,12 +15,12 @@ function getFahrenheit(celsius) {
 //console.log() // call getFahrenheit();
 
 // do the same thing starting from Fahrenheit to Celsius;
-function getcelsius(fahrenheit){
+function getcelsius(fahrenheit)  {
     return (fahrenheit-32)
 }
-console.log(getcelsius(6))
+console.log(getcelsius(50))
 
-function multiplyByfiveninth(number) {
-    return number*(5/9)
+function multiplyByfiveninth(number){
+   return getcelsius(18)*(5/9)
 }
-console.log(multiplyByfiveninth(4))
+console.log(multiplyByfiveninth(5))
